@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit the Event{% endblock %}
+
+{% block body %}
+    <h2 class="page-header text-center">Edit Event:</h2>
+    <div class="container mt-3 mb-3">
+    <div class="row d-flex justify-content-center">
+    <div class="col-12 com-sm-10 col-md-8 col-lg-6">
+    <div class="form-body  p-5">
+    {{form_start(form)}}
+    {{form_widget(form)}}
+    {{form_end(form)}}
+        </div>
+    <a href="/"><button class="btn btn-dark mx-5" title="back"> Go back</button></a>
+
+</div>
+</div>
+</div>
+{% endblock %}
+
